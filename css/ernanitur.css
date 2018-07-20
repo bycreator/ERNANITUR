@@ -180,6 +180,32 @@ small.text-success.partir {
 
 /* INTERNA PASSEIO */
 
-.container.passeio-interna {
+.passeio-interna {
     margin-top: 1.2em;
+}
+
+.left-passeio {
+    padding: 1em 1em 1em 1em;
+}
+
+.left-passeio img {
+    width: 100%;
+}
+
+.h4-passeio {
+    font-weight: 400;
+    color: #6d6d6d;
+}
+
+.pdl-0 {
+    padding-left: 0;
+}
+
+.container.bg-right-passeio-tp {
+    background-color: #FF7900;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
 }
