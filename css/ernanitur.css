@@ -209,3 +209,94 @@ small.text-success.partir {
     font-size: 1em;
     font-weight: 500;
 }
+
+.right-passeios-2 {
+    padding: 2em 0.5em 2em 0.5em;
+}
+
+.font-partir {
+    font-size: 14px;
+}
+
+small.valor-passeio {
+    font-size: 17px;
+    font-weight: 600;
+    color:
+}
+
+.qtl-60 {
+    width: 60%;
+    float: left;
+}
+
+.qtl-61 {
+    line-height: 35px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.qtl-40 {
+    text-align: right;
+    width: 40%;
+    display: inline-block;
+}
+
+.btn-detalhes {
+    padding: 2px 14px 3px 8px;
+    font-size: 13px;
+}
+
+.qtd1 {
+    margin-top: 5%;
+}
+
+.btn-danger {
+    border-radius: 35px;
+    padding: 0px 5px 0px 6px;
+    font-size: 11px;
+    background-color: #fd5d5d !important;
+    border-color: #fd5d5d !important;
+}
+
+input#date {
+    width: 100%;
+    font-size: 13px;
+    padding: 6px 0px 7px 8px;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+}
+
+.select-passeio {
+    margin-top: 5%;
+}
+
+.select-passeio2 {
+    border: solid #c2c2c2 1px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px 8px 7px 8px;
+}
+
+.form-control.psg1 {
+    margin-bottom: 2%;
+}
+
+.box-passageiro {
+    border-left: 4px solid #ED1C24;
+    padding-left: 12px;
+}
+
+.obs-cl {
+    width: 100%;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+}
+
+.btn-compass {
+    width: 100%;
+    margin-top: 2%;
+    border-radius: 0px;
+    padding: 1em 1em 1em 1em;
+}

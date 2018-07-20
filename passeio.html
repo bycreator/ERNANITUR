@@ -10,6 +10,7 @@
 
     <link href="css/ernanitur.css" rel="stylesheet">
 
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
     <title>Ernanitur - Receptivo do Ceará</title>
@@ -133,8 +134,73 @@
        <div class="col col-md-4 pdl-0">
          <div class="container bg-right-passeio-tp text-uppercase">compre este passeio</div>
          <div class="container bg-white">
-           <div class="">
-             teste
+           <div class="right-passeios-2">
+             <h6>PASSEIO À MARAGOGI</h6>
+
+               <p>Frequência: Sextas-feiras
+               <br>Duração: 12h aproximadamente
+               </p>
+
+              <div class="qtl-campos">
+                 <div class="font-partir qtl-60">A partir de <small class="valor-passeio">R$ 69,90</small></div>
+
+                 <div class="qtl-40">
+                   <button type="button" class="btn btn-outline-danger popover-dismiss btn-detalhes" data-toggle="popover" data-placement="bottom" title="Informações" data-content="Os valores dos passeios modificam de acordo com o local de saída.">+ DETALHES</button>
+                 </div>
+              </div>
+
+              <div class="qtl-campos qtd1">
+                  <div class="qtl-60 qtl-61">
+                    Quant. de passageiros
+                  </div>
+                  <div class="qtl-40">
+                    <div class="input-group">
+                      <input type="text" class="form-control align-center" placeholder="1" aria-label="1" aria-describedby="basic-addon2">
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-secondary " type="button">+</button>
+                        <button class="btn btn-outline-secondary " type="button">-</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="qtl-campos qtd1">
+                  <div class="qtl-60 qtl-61">
+                    Data do passeio
+                    <button type="button" class="btn btn-danger info-date" data-toggle="tooltip" data-placement="bottom" title="A compra online está disponível apenas com 48h de atencedência da data do passeio">?</button>
+                  </div>
+                  <div class="qtl-40">
+                    <input type="date" id="date" class="input.date">
+                  </div>
+              </div>
+
+              <div class="select-passeio">
+                <select id="select" class="select-passeio2">
+                  <option value="">Selecione seu ponto de partida</option>                  
+                      <option value="">Option 1</option>
+                      <option value="">Option 2</option>
+                      <option value="">Option 3</option>
+                  </optgroup>                  
+                </select>
+              </div>
+
+              <hr>
+
+              <div class="box-passageiro"> <!-- esse box se repete de acordo com o n de passageiros -->
+                <h6>Passageiro 01</h6>
+                <input type="text" class="form-control psg1" placeholder="Nome" aria-label="Nome" aria-describedby="basic-addon2">
+                <input type="text" class="form-control" placeholder="Idade" aria-label="Idade" aria-describedby="basic-addon2">
+              </div>
+
+              <hr>
+
+              <div class="obs">
+                <h6>Observações</h6>
+                <textarea id="textarea" rows="5" class="obs-cl"></textarea>
+              </div>
+
+              <button type="button" class="btn btn-success btn-compass">ADICIONAR AO CARRINHO</button>
+
            </div>
          </div>
        </div>
@@ -197,6 +263,9 @@ Fone: <a href="tel:558535337700">55 85 3533 7700</a> - Fax: 55 85 3533 7720 - Lo
         </div>
     </div>
 
+    
+
+
     <div class="footer-2">
         <div class="container">
             
@@ -213,11 +282,6 @@ Fone: <a href="tel:558535337700">55 85 3533 7700</a> - Fax: 55 85 3533 7720 - Lo
         </div>
     </div>
     
-       
-    
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
