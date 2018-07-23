@@ -308,3 +308,17 @@ input#date {
 .bg-login-cadastro {
     background-color: #28a745 !important;
 }
+
+.row.final-compra {
+    margin-top: 1%;
+}
+
+.desconto {
+    padding-left: 0px;
+        background-color: #fff;
+}
+
+.box-desconto {
+    padding: 2% 3% 2% 3%;
+}
+

@@ -101,155 +101,104 @@
    <div class="container passeio-interna">
      <div class="row">
        
-
-       <div class="col col-md-4 pdl-0">
-         <div class="container bg-right-passeio-tp text-uppercase bg-login-cadastro">login / área restrita</div>
-         <div class="container bg-white">
-           <div class="right-passeios-2">
-             
-              <div class="box-passageiro">
-                <input type="text" class="form-control psg1" placeholder="Nome" aria-label="Nome" aria-describedby="basic-addon2">
-                <input type="password" class="form-control" placeholder="Idade" aria-label="Idade" aria-describedby="basic-addon2">
-              </div>              
-
-              <button type="button" class="btn btn-success btn-compass">REALIZAR LOGIN</button>
-              <a href="#"><small>Não está conseguindo se conectar? Recupera sua senha.</small></a>
-
-           </div>
-         </div>
-       </div>
-       <div class="col col-md-8">
-        <div class="container bg-right-passeio-tp text-uppercase bg-login-cadastro1">cadastro / Se não possui cadastro, faça aqui bem rapidinho.</div>
+       <div class="col">
+        <div class="container bg-right-passeio-tp text-uppercase bg-login-cadastro1"><i class="fas fa-shopping-cart"></i> MEU CARRINHO</div>
          <div class="col bg-white left-passeio">
            
-           <!-- inicio do form -->
+          <div class="continuar-comprando"><button type="button" class="btn btn-outline-success">continuar comprando</button></div>
 
-           <form>
+          <table class="table table-borderless">
+            <thead>
+              <tr>
+                <th scope="col">ITEM</th>
+                <th scope="col">Passageiros</th>
+                <th scope="col">Data</th>
+                <th scope="col">Opções</th>
+                <th scope="col">Valor</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">PRAIA DE MUNDAÚ</th>
+                <td>2</td>
+                <td>14/02/2018</td>
+                <td>
+                  <button type="button" class="btn btn-outline-warning"><i class="fas fa-edit"></i> EDITAR</button>
+                  <button type="button" class="btn btn-outline-danger"><i class="fas fa-times-circle"></i> REMOVER</button>
+                </td>
+                <td>R$ 129,90</td>
+              </tr>
+
+              <tr>
+                <th scope="row">PRAIA DE BEBERIBE</th>
+                <td>3</td>
+                <td>14/02/2018</td>
+                <td>
+                  <button type="button" class="btn btn-outline-warning"><i class="fas fa-edit"></i> EDITAR</button>
+                  <button type="button" class="btn btn-outline-danger"><i class="fas fa-times-circle"></i> REMOVER</button>
+                </td>
+                <td>R$ 329,90</td>
+              </tr>
+
+              <tr>
+                <th scope="row">PRAIA DO FUTURO</th>
+                <td>4</td>
+                <td>14/02/2018</td>
+                <td>
+                  <button type="button" class="btn btn-outline-warning"><i class="fas fa-edit"></i> EDITAR</button>
+                  <button type="button" class="btn btn-outline-danger"><i class="fas fa-times-circle"></i> REMOVER</button>
+                </td>
+                <td>R$ 229,90</td>
+              </tr>
               
-              <div class="form-group">
-                <label for="inputName">Nome</label>
-                <input type="text" class="form-control" id="inputName" placeholder="Nome">
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputEmail4">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="inputCpf">Cpf</label>
-                  <input type="text" class="form-control" id="inputCpf" placeholder="Cpf">
-                </div>
-              </div>
-
-              <div class="form-row">
-                <div class="form-group col-md-4">
-                  <label for="inputCity">Telefone</label>
-                  <input type="text" class="form-control" id="inputCity">
-                </div>
-               <div class="form-group col-md-4">
-                  <label for="inputCity">País</label>
-                  <input type="text" class="form-control" id="inputCity">
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="inputZip">Cep</label>
-                  <input type="text" class="form-control" id="inputZip">
-                </div>
-              </div>
-
-              <div class="form-row">
-                <div class="form-group col-md-8">
-                  <label for="inputCity">Endereço</label>
-                  <input type="text" class="form-control" id="inputCity">
-                </div>
-               <div class="form-group col-md-4">
-                  <label for="inputCity">Número</label>
-                  <input type="text" class="form-control" id="inputCity">
-                </div>
-                
-              </div>
-
-              <div class="form-row">
-                <div class="form-group col-md-4">
-                  <label for="inputCity">Complemento</label>
-                  <input type="text" class="form-control" id="inputCity">
-                </div>
-               <div class="form-group col-md-4">
-                  <label for="inputCity">Cidade</label>
-                  <input type="text" class="form-control" id="inputCity">
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="inputZip">Bairro</label>
-                  <input type="text" class="form-control" id="inputZip">
-                </div>
-              </div>
-
-              <div class="form-row">
-                <div class="form-group col-md-4">
-                  <label for="inputState">Estado</label>
-                  <select id="inputState" class="form-control">
-                    <option value="AC">- escolha -</option>
-                    <option value="AC">Acre</option>
-                    <option value="AL">Alagoas</option>
-                    <option value="AP">Amapá</option>
-                    <option value="AM">Amazonas</option>
-                    <option value="BA">Bahia</option>
-                    <option value="CE">Ceará</option>
-                    <option value="DF">Distrito Federal</option>
-                    <option value="ES">Espírito Santo</option>
-                    <option value="GO">Goiás</option>
-                    <option value="MA">Maranhão</option>
-                    <option value="MT">Mato Grosso</option>
-                    <option value="MS">Mato Grosso do Sul</option>
-                    <option value="MG">Minas Gerais</option>
-                    <option value="PA">Pará</option>
-                    <option value="PB">Paraíba</option>
-                    <option value="PR">Paraná</option>
-                    <option value="PE">Pernambuco</option>
-                    <option value="PI">Piauí</option>
-                    <option value="RJ">Rio de Janeiro</option>
-                    <option value="RN">Rio Grande do Norte</option>
-                    <option value="RS">Rio Grande do Sul</option>
-                    <option value="RO">Rondônia</option>
-                    <option value="RR">Roraima</option>
-                    <option value="SC">Santa Catarina</option>
-                    <option value="SP">São Paulo</option>
-                    <option value="SE">Sergipe</option>
-                    <option value="TO">Tocantins</option>
-                    <option value="ES">Estrangeiro</option>
-                  </select>
-                </div>
-               <div class="form-group col-md-4">
-                  <label for="inputCity">Senha</label>
-                  <input type="text" class="form-control" id="inputCity">
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="inputZip">Confirmar senha</label>
-                  <input type="text" class="form-control" id="inputZip">
-                </div>
-              </div>
-
-              
-
-              <div class="form-group">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="gridCheck">
-                  <label class="form-check-label" for="gridCheck">
-                    <a href="#">Declaro ter lido e estar de acordo com os Termos e Condições dos serviços da Ernanitur.</a>
-                  </label>
-                </div>
-              </div>
-              <button type="button" class="btn btn-danger btn-compass">REALIZAR CADASTRO</button>
-            </form>
-
-           <!-- fim do form -->
+            </tbody>
+          </table>
 
 
          </div>
        </div>
      </div>
-   </div>
-    
 
+     <!-- inicio btns -->
+     <div class="container">
+       <div class="row final-compra">
+        <!-- cupom de desconto -->
+         <div class="col col-md-7 desconto">
+            <div class="box-desconto">
+              <div class="row">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 col">
+                  <h6>Subtotal:</h6>
+                </div>
+                <div class="col-md-8 col">
+                  <h6>R$ 00,00</h6>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4 col">
+                  <h5>Total:</h5>
+                </div>
+                <div class="col-md-8 col">
+                  <h5>R$ 00,00</h5>
+                </div>
+              </div>
+            </div>
+         </div>
+        <!-- fim cupom de desconto -->
+        <div class="col col-md-5">
+           <button type="button" class="btn btn-success btn-compass"><i class="far fa-check-circle"></i> COMPRAR</button>
+         </div>
+
+       </div>
+     </div>
+     <!-- final btns -->
+   </div>
 
     <div class="footer-1">
         <div class="container">
