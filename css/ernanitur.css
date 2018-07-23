@@ -1,0 +1,302 @@
+body {
+	background-color: #F3F3F3 !important;
+}
+
+.bg-top {
+    background-color: #01579b;
+    padding: 20px 0px 23px 0px;
+}
+
+ul.li-car-acc {
+    list-style: none;
+    display: inline-flex;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.my-item {
+    padding: 12px 0px 0px 9px;
+
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 32px !important;
+    height: 43px;
+    width: 43px;
+}
+
+li.li-top {
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+}
+
+spam.text-acc {
+    color: #fff;
+    padding: 0px 15px 0px 5px;
+}
+
+li.li-search {
+    margin: 2px 0px 0px 0px;
+    padding: 0px 23px 0px 0px;
+}
+
+
+.container {
+    max-width: 1240px !important;
+}
+
+.col.col-md-4.card-confi {
+    padding-top: 30px;
+}
+
+.line-top {
+	border-top: 6px solid #0055A7 !important;
+	box-shadow: 0 1px 7px rgba(0,0,0,.1);
+	border: none;
+	border-radius: 0px;
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+}
+
+.text-card1 {
+	font-size: 14px;
+}
+
+.buy-btn {
+    border-radius: 0px;
+    font-size: 16px;
+}
+
+small.text-success.partir {
+    font-size: 16px;
+}
+
+.melhores-passeios {
+    margin-top: 33px;
+}
+
+.title-passeios {
+    font-size: 29px;
+    border-left: 4px solid #F5661A;
+}
+
+.home-newsletter {
+    margin: 70px 0px 70px 0px;
+    background-color: #fff;
+}
+
+
+
+.tiles {
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    height: 12em;
+}
+
+.tile {
+    position: relative;
+    /* float: left; */
+    /* width: 33.333%; */
+    /* height: 100%; */
+    overflow: hidden;
+    min-height: 100%;
+}
+
+  .photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform .2s ease-out;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+  .newsletter-home {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+}
+
+.footer-1 {
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 3em 0em 3em 0em;
+}
+
+.footer-2 {
+    background-color: #4C6EF5;
+    padding: 1em 0em 1em 0em;
+}
+
+.links-footer1 {
+    padding: 0;
+    list-style: none;
+    font-size: 13px;
+}
+
+.pag-footer img {
+    width: 100%;
+    text-align: left;
+}
+
+.icons-social {
+    font-size: 33px;
+}
+
+.end-footer {
+	font-size: 12.5px;
+}
+
+.logo-bycreator {
+    text-align: right;
+}
+
+.logo-bycreator img {
+    width: 80px;
+}
+
+
+@media (max-width: 576px) {
+
+.card-deck {
+    display: inherit;
+}
+
+}
+
+
+/* INTERNA PASSEIO */
+
+.passeio-interna {
+    margin-top: 1.2em;
+}
+
+.left-passeio {
+    padding: 1em 1em 1em 1em;
+}
+
+.left-passeio img {
+    width: 100%;
+}
+
+.h4-passeio {
+    font-weight: 400;
+    color: #6d6d6d;
+}
+
+.pdl-0 {
+    padding-left: 0;
+}
+
+.container.bg-right-passeio-tp {
+    background-color: #66CC99;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.right-passeios-2 {
+    padding: 2em 0.5em 2em 0.5em;
+}
+
+.font-partir {
+    font-size: 14px;
+}
+
+small.valor-passeio {
+    font-size: 17px;
+    font-weight: 600;
+    color:
+}
+
+.qtl-60 {
+    width: 60%;
+    float: left;
+}
+
+.qtl-61 {
+    line-height: 35px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.qtl-40 {
+    text-align: right;
+    width: 40%;
+    display: inline-block;
+}
+
+.btn-detalhes {
+    padding: 2px 14px 3px 8px;
+    font-size: 13px;
+}
+
+.qtd1 {
+    margin-top: 5%;
+}
+
+.btn-danger {
+    border-radius: 35px;
+    padding: 0px 5px 0px 6px;
+    font-size: 11px;
+    background-color: #fd5d5d !important;
+    border-color: #fd5d5d !important;
+}
+
+input#date {
+    width: 100%;
+    font-size: 13px;
+    padding: 6px 0px 7px 8px;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+}
+
+.select-passeio {
+    margin-top: 5%;
+}
+
+.select-passeio2 {
+    border: solid #c2c2c2 1px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px 8px 7px 8px;
+}
+
+.form-control.psg1 {
+    margin-bottom: 2%;
+}
+
+.box-passageiro {
+    border-left: 4px solid #ED1C24;
+    padding-left: 12px;
+}
+
+.obs-cl {
+    width: 100%;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+}
+
+.btn-compass {
+    width: 100%;
+    margin-top: 2%;
+    border-radius: 0px;
+    padding: 1em 1em 1em 1em;
+}
