@@ -321,4 +321,7 @@ input#date {
 .box-desconto {
     padding: 2% 3% 2% 3%;
 }
+.row.des {
+    margin-bottom: 2%;
+}
 
