@@ -1,0 +1,179 @@
+body {
+	background-color: #F3F3F3 !important;
+}
+
+.bg-top {
+    background-color: #01579b;
+    padding: 20px 0px 23px 0px;
+}
+
+ul.li-car-acc {
+    list-style: none;
+    display: inline-flex;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.my-item {
+    padding: 12px 0px 0px 9px;
+
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 32px !important;
+    height: 43px;
+    width: 43px;
+}
+
+li.li-top {
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+}
+
+spam.text-acc {
+    color: #fff;
+    padding: 0px 15px 0px 5px;
+}
+
+li.li-search {
+    margin: 2px 0px 0px 0px;
+    padding: 0px 23px 0px 0px;
+}
+
+
+.container {
+    max-width: 1240px !important;
+}
+
+.col.col-md-4.card-confi {
+    padding-top: 30px;
+}
+
+.line-top {
+	border-top: 6px solid #0055A7 !important;
+	box-shadow: 0 1px 7px rgba(0,0,0,.1);
+	border: none;
+	border-radius: 0px;
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+}
+
+.text-card1 {
+	font-size: 14px;
+}
+
+.buy-btn {
+    border-radius: 0px;
+    font-size: 16px;
+}
+
+small.text-success.partir {
+    font-size: 16px;
+}
+
+.melhores-passeios {
+    margin-top: 33px;
+}
+
+.title-passeios {
+    font-size: 29px;
+    border-left: 4px solid #F5661A;
+}
+
+.home-newsletter {
+    margin: 70px 0px 70px 0px;
+    background-color: #fff;
+}
+
+
+
+.tiles {
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    height: 12em;
+}
+
+.tile {
+    position: relative;
+    /* float: left; */
+    /* width: 33.333%; */
+    /* height: 100%; */
+    overflow: hidden;
+    min-height: 100%;
+}
+
+  .photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform .2s ease-out;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+  .newsletter-home {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+}
+
+.footer-1 {
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 3em 0em 3em 0em;
+}
+
+.footer-2 {
+    background-color: #4C6EF5;
+    padding: 1em 0em 1em 0em;
+}
+
+.links-footer1 {
+    padding: 0;
+    list-style: none;
+    font-size: 13px;
+}
+
+.pag-footer img {
+    width: 100%;
+    text-align: left;
+}
+
+.icons-social {
+    font-size: 33px;
+}
+
+.end-footer {
+	font-size: 12.5px;
+}
+
+.logo-bycreator {
+    text-align: right;
+}
+
+.logo-bycreator img {
+    width: 80px;
+}
+
+
+@media (max-width: 576px) {
+
+.card-deck {
+    display: inherit;
+}
+
+}
+
